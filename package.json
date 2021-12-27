@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "install": "lerna bootstrap",
-    "start": "lerna run --scope app start",
+    "start": "cd ./packages/qrmosru-brute && yarn start",
     "clear": "lerna run --scope app clear"
   },
   "devDependencies": {

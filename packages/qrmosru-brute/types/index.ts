@@ -1,5 +1,3 @@
-export type Count = number;
-
 export type Certificate = {
   enFio: string;
   qr: string;
